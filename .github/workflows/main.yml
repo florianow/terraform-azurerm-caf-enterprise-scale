@@ -11,4 +11,4 @@ jobs:
       - name: List Changed Files in Subfolder
         run: |
           git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- modules/archetypes/lib > changed_files.txt
-          cat changed_files.txt
+          #cat changed_files.txt
